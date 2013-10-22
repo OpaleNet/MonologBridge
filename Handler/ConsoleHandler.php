@@ -43,7 +43,7 @@ class ConsoleHandler extends AbstractProcessingHandler implements EventSubscribe
     /**
      * @var OutputInterface|null
      */
-    private $output;
+    protected $output;
 
     /**
      * @var array
